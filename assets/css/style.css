@@ -1,0 +1,347 @@
+
+/*Color palate - #E17D1F (orange) #92a55e (green) light green (#a4ba6a)*/
+
+.mainContainer {
+  background: #e17d1f;
+}
+
+/*HEADER*/
+.span_h2 {
+    font-weight: 300;
+    color: #E17D1F 
+}
+
+
+/*BACKGROUND*/
+.default_color {
+    background-color: #E17D1F 
+}
+
+/* sarah note - title header only*/
+.text_h {
+    padding: 15% 0;
+    font-size: 6.0em;
+    /*font-weight: 100;*/
+    font-weight: 300;
+    color: #E17D1F
+}
+
+/* sarah note - Styles to search by, Our Favorites and The Team text*/
+.text_b {
+    color: #e17d1f
+}
+
+/* sarah note - cant find*/
+.default_color_text {
+    color: green 
+}
+/*APPLIES TO ALL CONTAINERS*/
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    margin-top: 5px; /*sarah - added for bottle position*/
+}
+
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem
+}
+
+/*NAVBAR
+
+/*sarah note - affects top bottle image/cartoon in nav bar*/
+#bottle {
+
+}
+
+#nav_f {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important
+}
+#navLinks {
+  float: right;
+}
+
+/*sarah note-top left of page - logo and image only*/
+nav .brand-logo {
+  letter-spacing: 0.0525em;
+  font-weight: 300;
+}
+
+/*sarah note nav bar lettering*/
+nav ul a {
+    font-size: 1.2rem;
+    color: #FFF;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 300;
+    padding: 0px 15px
+}
+
+#logo-container {
+  size: 200%;
+  color: #fff;
+  font-size: 34px;
+}
+/*sarah note - placement of header nav bar only*/
+.logo-navbar{
+    height: 7rem;
+    padding-right: .5rem
+}
+
+/*TITLE DIV*/
+.hopsDiv {
+    margin-top: 50px;
+
+}
+#hopsSection {
+  background-repeat: no-repeat;
+}
+
+/* APPLIES TO SCROLLING TITLE BAR*/
+.cd-headline.type b {
+    visibility: hidden
+}
+
+.cd-headline.type b.is-visible {
+    visibility: visible
+}
+
+.cd-headline.type i {
+    position: absolute;
+    visibility: hidden
+}
+
+.cd-headline.type i.in {
+    position: relative;
+    visibility: visible
+}
+
+/*SECOND DIV-MISSION STATEMENT*/
+#mission {
+  color: #fff;
+  background: #a4ba6a;
+  padding: 50px;
+}
+
+/*SELECT LOCATION AND BEER QUALITIES DIV*/
+.btn-group input {
+ display:none;
+  border-top-left-radius: 0;
+ border-top-right-radius: 0;
+ border-bottom-right-radius: 0;
+ border-top-right-radius: 0;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input:checked + label {
+ background:#92a55e;
+}
+
+label.btn:hover {
+ background:#92a55e;
+}
+
+.btn-default{
+  background: #c9701c;
+  margin:10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: #fff;
+}
+.btn-large {
+	width: 100%;
+	height: 64px;
+  font-size: 1.25em;
+  background: #E17D1F;
+}
+
+/*background image for selectBeers div*/
+#selectBeers{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 20px;
+}
+
+#grainSectionFonts {
+  color: #fff;
+  font-size: 18px;
+}
+
+/*ZIPCODE*/
+/*removes spinner from zipcode input field*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#zipCode-form{
+    margin-left: 70px;
+}
+
+#zipCode-input {
+  background-color: #e17d1f;
+}
+
+#zipCode-input {
+  color: #fff;
+  text-align: center;
+}
+
+.invalidZip {
+  color: #fff
+}
+
+
+/*FAV DIV*/
+
+.teamFavs {
+  color: #fff;
+}
+.recommendedBeers {
+  color: #fff;
+}
+
+/*CARDS*/
+
+/*BOTTOM OF CARDS*/
+.card-content {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  background-color: #92a55e;
+}
+.card-content a {
+    color: #fff
+}
+
+.teamCards {
+  background-color: #f48822;
+}
+#inspiration {
+  background-color: #a4ba6a;
+}
+
+#team {
+  background-color: #E17D1F;
+}
+
+/* cards styling*/
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+/* card image alignment*/
+.card-avatar .waves-effect {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #92a55e;
+}
+
+.card-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px
+}
+
+.card-avatar .card-content {
+    text-align: center
+}
+
+.card .card-content p {
+    margin: 15px 0px
+}
+
+.card-avatar .card-content i {
+    font-size: 1.5rem
+}
+
+.card-avatar .card-content .card-title {
+    line-height: 30px 
+}
+
+/* card picture alignment*/
+.waves-block {
+    display: block;
+}
+
+/*card size*/
+.teamPicksSection {
+  display: inline-flex;
+  margin-left: 220px;
+}
+
+.teamCards {
+  margin-left: 100px;
+}
+
+.teamTitle {
+  color: #fff;
+}
+
+.teamBusiness {
+  display: inline-flex;
+  margin-left: 220px;
+}
+
+#beerResults {
+  color: #fff;
+}
+/*NOT USED*/
+/*sarah note-for map section only*/
+/*#map {
+
+  width: 100%;
+  height: 200px;
+}
+
+
+
+/*sarah note-cant find on page
+img.cardImage {
+  height: 200px;
+  width: 300px;
+}
+
+/*sarah note-can't find on page
+.itemInfo {
+  margin-bottom: 5px;
+}
+
+/* sarah - cant find
+#intro,
+#work,
+#team {
+    padding-top: 4rem
+}
+
+
+/* - sarah note - affects the "find your.." text above maps*/
+/*.text_h2 {
+    font-weight: 100;
+    margin-bottom: 4%;
+    line-height: 4.5rem;
+    color: #fff;
+}
+
+#waves-effect waves-block waves-light{
+  max width: 400px;
+}
